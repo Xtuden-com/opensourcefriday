@@ -27,7 +27,7 @@ end
 group :development do
   gem "awesome_print"
   gem "listen"
-  gem "rubocop"
+  gem "rubocop", ">= 1.3.0"
   gem "spring"
   gem "spring-watcher-listen"
   gem "web-console"
