@@ -2,19 +2,19 @@ source "https://rubygems.org"
 
 ruby IO.read(File.expand_path("#{File.dirname(__FILE__)}/.ruby-version")).strip
 
-gem "devise"
-gem "devise-i18n"
-gem "failbot_rails"
+gem "devise", ">= 4.8.0"
+gem "devise-i18n", ">= 1.9.3"
+gem "failbot_rails", ">= 0.7.0"
 gem "faraday-http-cache"
 gem "figaro"
-gem "jquery-rails"
-gem "octicons_helper"
+gem "jquery-rails", ">= 4.5.0"
+gem "octicons_helper", ">= 11.1.0"
 gem "octokit"
 gem "omniauth-github"
 gem "pg"
 gem "puma"
 gem "rack-host-redirect"
-gem "rails"
+gem "rails", ">= 6.1.7.5"
 gem "sassc-rails"
 gem "sitemap_generator"
 gem "turbolinks"
@@ -30,7 +30,7 @@ group :development do
   gem "rubocop"
   gem "spring"
   gem "spring-watcher-listen"
-  gem "web-console"
+  gem "web-console", ">= 4.2.0"
 end
 
 group :production do
