@@ -4,7 +4,7 @@ ruby IO.read(File.expand_path("#{File.dirname(__FILE__)}/.ruby-version")).strip
 
 gem "devise"
 gem "devise-i18n"
-gem "failbot_rails"
+gem "failbot_rails", ">= 0.7.0"
 gem "faraday-http-cache"
 gem "figaro"
 gem "jquery-rails"
